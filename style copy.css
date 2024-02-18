@@ -1,4 +1,3 @@
-
 html, body{
     height: 100%;
 }
@@ -9,12 +8,6 @@ html{
     margin: 0;
     padding: 0;
 }
-
-
-
-
-
-
 header{
     width: 100%;
     height: 953px;
@@ -244,7 +237,7 @@ margin-bottom: 23.6px;
     height: 101.81px;
     margin: 0 auto;
 }
-#pp {
+#p {
 width: 51.72px;
 height: 20.16px;
 font-family: 'Segoe UI';
@@ -425,86 +418,5 @@ color: #FFFFFF;
 
 
 @media screen and (max-width: 1280px) {
-    .vverh1{
-        width: 1140px;
-    }
-    nav{
-        width: 100%;
-    }
-    .slovo{
-        width: 892px;
-        height: 338px;
-    }
-    .fotopel img {
-width: 337.11px;
-height: 337.62px;
-    }
-    .slova h2 {
-width: 530.62px;
-height: 325.47px;
-font-family: 'Kaushan Script';
-font-style: normal;
-font-weight: 400;
-font-size: 36px;
-line-height: 52px;
-align-items: center;
-text-align: center;
-color: #000000;
-}
-
-main{
-    width: 1280px;
-}
-.up{
-    width: 919.25px;
-    height: 3114px;
-}
-.upper {
-    width: 849.25px;
-    height: 2000px;
-    margin: 0 auto;
-}
-.uppper{
-    width: 849.25px;
-    height: 2000px;
-}
-.karti {
-    width: 849.25px;
-    height: 1500px;
-    gap: 88px;
-}
-.karti1{
-    width: 849.25px;
-    height: 1400px;
-    gap: 88px;
-
-}
-footer {
-    margin-top: 720px;
-    width: 100%;
-}
-.end{
-    width: 1280px;
-    height: 386px;
-}
-.up {
-    width: 1280px;
-}
-.upper h3{
-margin-bottom: 50px;
-margin-top: 30px;
-}
-header{
-    height: 760px;
-    width: 100%;
-}
-.vverh{
-    width: 100%;
-}
-.end{
-    width: 100%;
-}
-.podval{
-    width: 100%;
-}
+    
 }
