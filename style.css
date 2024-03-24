@@ -145,7 +145,7 @@ li{
 ul{
     display: flex;
     gap: 30px;
-    padding-left: 130px;
+    padding-left: 20px;
 }
 li a {
     text-decoration: none;
@@ -232,7 +232,7 @@ margin-bottom: 23.6px;
 .kartocha1{
     width: 346.25px;
     height: 468.06px;
-    box-shadow: 5px 5px 7px rgba(34, 60, 80, 0.08),-5px -5px 7px rgba(34, 60, 80, 0.08);
+    box-shadow: 1px 0px 10px rgba(109, 109, 109, 0.08)
 }
 .kartocha1 img {
     width: 304px;
@@ -358,6 +358,12 @@ margin-top: 139px;
     height: 502px;
     background-color: #282828;
     margin: 0 auto;
+}
+footer p {
+    color: white;
+}
+footer a {
+    color: white;
 }
 .end{
     width: 1400px;
@@ -507,4 +513,7 @@ header{
 .podval{
     width: 100%;
 }
+}
+@media screen and (max-width: 720px){
+    
 }
