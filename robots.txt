@@ -1,0 +1,10 @@
+User-agent: *
+Disallow: /admin
+Disallow: /img/admin
+Disallow: /support
+Disallow: /index.html
+Disallow: /*&$
+Allow: /error.html
+Sitemap: http://pelmerin.ru
+Host: ru
+Disallow: /admin/

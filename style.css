@@ -256,8 +256,6 @@ align-items: center;
 color: #000000;
 }
 .but{
-    width: 319.25;
-    height: 41.5px;
     display: flex;
     margin-top: 40px;
     gap: 130px;
@@ -290,17 +288,10 @@ align-items: center;
 color: #000000;
 }
 .but button{
-    width: 113px;
-    height: 36px;
-    border-radius: 75px;
-    display: flex;
-    position: relative;
-    text-align: center;
-    align-items: center;
-    border: 3px solid black;
-    justify-content: center;
-    padding: 0 25px 0 0;
-    background-color: white;
+width: 162px;
+height: 36px;
+background: #eeeded;
+border-radius: 25px;
 }
 #korzinka {
     width: 16px;
@@ -441,6 +432,9 @@ color: #FFFFFF;
         width: 892px;
         height: 338px;
     }
+    .slogan{
+        margin-left: 120px;
+    }
     .fotopel img {
 width: 337.11px;
 height: 337.62px;
@@ -511,7 +505,7 @@ header{
     width: 100%;
 }
 .podval{
-    width: 100%;
+    width: 1280px;
 }
 }
 @media screen and (max-width: 720px){
