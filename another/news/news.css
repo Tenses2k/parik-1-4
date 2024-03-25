@@ -77,37 +77,24 @@ transform: translateX(-50%);
         border: 1px solid black;
         border-radius: 25px;
     }
-    .NewsFrst{
-        border: 1px solid black;
-        width: 500px;
+.imgright{
+    float: left;
+    margin: 10px;
+    width: 1000px;
+}
+.News_Open_market img{
+    border-radius: 25px;
+}
+.News_Open_market p{
+    font-size: 28px;
+}
+.News_Open_market span{
+font-weight: 600;
+}
 
-    }
-    .NewsFrst h1, h2, h3, h4{
-        margin: 10px ;
-    }
-    .NewsFrst img{
-        width: 500px;
-        transform: scale(0.9);
-    }
-    .NewsFrst a {
-        text-decoration: none;
-        color: black;
-    }
-    .NewsFrst p {
-        margin: 20px;
-    }
-    .NewsFrst span {
-        color: blue;
-        font-size: 24px;
-        text-decoration: underline;
-    }
-
-    main{
-        display: flex;
-        gap: 50px   ;
-    }
-    #uni{
-        font-weight: 600;
-        text-decoration: none;
-        color: black;
-    }
+.leftBox{
+    width: 500px;
+    height: 600px;
+    border: 1px solid black;
+    
+}

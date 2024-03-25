@@ -103,7 +103,167 @@ main{
     font-family: Arial, Helvetica, sans-serif;
     line-height: 30px;
 }
+
 span{
     font-weight: 600;
     font-size: 36px;
 }
+
+.leftBox{
+    display: flex;
+    gap: 300px;
+    width: 500px;
+    height: 500px;
+}
+
+.personal{
+    width: 1800px;
+    height: 700px;
+    margin: 0 auto;
+}
+
+.leftBox img{
+    border-radius: 100px;
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+.frs{
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
+}
+.sec{
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
+}
+.info1 p{
+font-size: 24px;
+}
+
+.focus{
+    margin: 50px 0 50px 300px;
+    font-size: 48px;
+}
+
+.forma{
+    margin-top: 100px;
+    margin-left: 300px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#yak{
+    width: 500px;
+    height: 300px;
+    padding-left: 10px;
+    font-size: 26px;
+}
+
+#gop{
+    width: 200px;
+    height: 80px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.forma p {
+    font-size: 24px;
+}
+
+.otzivi{
+    width: 1200px;
+    height: 500px;
+    margin: 0 auto;
+    background: bisque;
+    display: flex;
+    flex-direction: column;
+    border-radius: 25px;
+}
+.hot{
+    margin: 50px auto;
+    font-size: 48px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+#tex{
+    width: 600px;
+    height: 200px;
+    font-size: 28px;
+}
+#but{
+    width: 200px;
+    height: 50px;
+    background: orange;
+    margin: 20px auto;
+    margin-left: 200px;
+}
+.people{
+    background: rgb(224, 224, 224);
+    height: 200px;
+    width: 1200px;
+    margin: 30px auto;
+    border-radius: 25px;
+}
+.div{
+    display: flex;
+    gap: 30px;
+    margin-left: 100px;
+    border-radius: 25px;
+    margin: 30px auto;
+}
+.div img{
+    width: 150px;
+    border-radius: 50px;
+}
+#star{
+    font-size: 36px;
+    color: yellow;
+}
+.rating-area {
+	overflow: hidden;
+	width: 265px;
+	margin: 30px auto;
+}
+.rating-area:not(:checked) > input {
+	display: none;
+}
+.rating-area:not(:checked) > label {
+	float: right;
+	width: 42px;
+	padding: 0;
+	cursor: pointer;
+	font-size: 36px;
+	line-height: 32px;
+	color: lightgrey;
+	text-shadow: 1px 1px #bbb;
+}
+.rating-area:not(:checked) > label:before {
+	content: '★';
+}
+.rating-area > input:checked ~ label {
+	color: gold;
+	text-shadow: 1px 1px #c60;
+}
+.rating-area:not(:checked) > label:hover,
+.rating-area:not(:checked) > label:hover ~ label {
+	color: gold;
+}
+.rating-area > input:checked + label:hover,
+.rating-area > input:checked + label:hover ~ label,
+.rating-area > input:checked ~ label:hover,
+.rating-area > input:checked ~ label:hover ~ label,
+.rating-area > label:hover ~ input:checked ~ label {
+	color: gold;
+	text-shadow: 1px 1px goldenrod;
+}
+.rate-area > label:active {
+	position: relative;
+}
+
