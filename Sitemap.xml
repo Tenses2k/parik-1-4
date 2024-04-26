@@ -3,7 +3,7 @@
     <url>
         <loc>http://www.pelmerin.ru/index.html</loc>
         <lastmod>2024-03-30</lastmod>
-        <changefreq>daily</changefreq>
+        <changefreq>hourly</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
@@ -11,5 +11,46 @@
         <lastmod>2024-03-29</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>http://www.pelmerin.ru/another/Sales/Sales.html</loc>
+        <lastmod>2024-03-29</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <url>
+        <loc>http://www.pelmerin.ru/another/Sales/</loc>
+        <lastmod>2024-03-29</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <url>
+        <loc>http://www.pelmerin.ru/another/news/</loc>
+        <lastmod>2024-03-29</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <url>
+        <loc>http://www.pelmerin.ru/another/</loc>
+        <lastmod>2024-03-29</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <url>
+        <loc>http://www.pelmerin.ru/index.html/</loc>
+        <lastmod>2024-03-29</lastmod>
+        <changefreq>hourly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <url>
+        <loc>http://www.pelmerin.ru/forUs.html/</loc>
+        <lastmod>2024-03-29</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
     </url>
 </urlset>

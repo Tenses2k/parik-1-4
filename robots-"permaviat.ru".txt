@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /img/
+Disallow: /search/
+Disallow: /contact/
+Disallow: /404/
+Disallow: /raspisanie/
