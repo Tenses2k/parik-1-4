@@ -111,3 +111,7 @@ transform: translateX(-50%);
         text-decoration: none;
         color: black;
     }
+    @font-face {
+        font-family: Laila;
+        src: url(fonts/Laila/Laila-Regular.ttf);
+    }

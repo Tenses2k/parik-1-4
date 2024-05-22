@@ -267,3 +267,7 @@ font-size: 24px;
 	position: relative;
 }
 
+@font-face {
+    font-family: Laila;
+    src: url(fonts/Laila/Laila-Regular.ttf);
+}
